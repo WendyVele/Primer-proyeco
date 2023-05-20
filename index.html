@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portada</title>
+<style>
+    .padre{
+        display: flex;
+        padding: 15%;
+        background-image: url("https://img.freepik.com/foto-gratis/viejo-fondo-negro-textura-grunge-papel-tapiz-oscuro-pizarra-pizarra-pared-habitacion_1258-28313.jpg");
+    }
+    .foto{
+    width: 30%;
+    }
+    .detalle{
+    width: 70%;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    }
+    .fotoportada{
+    width: 100%;
+    }
+    .btnPortada{
+        background-color: black;
+        color: white;
+        padding: 15px;
+        font-size: 20px;
+        border: 1px solid white;
+        border-radius: 25px;
+        cursor: pointer;
+
+    }
+</style>
+
+</head>
+<body>
+
+    <div class="padre">
+
+   
+        <div class="foto">
+         <img class="fotoportada" src="https://images.hola.com/us/images/027d-1715c17bf283-6d40bdce3b8f-1000/vertical-480/carmen-villalobos.jpg" alt="">
+        </div>
+
+      <div class="detalle">
+    
+         <h1>Carmen Villalobos</h1>
+    
+         <Em>Actriz/Drama/Narcos</Em>
+    
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dicta alias in cumque minima omnis rerum, harum illum sunt consequatur adipisci non porro assumenda maxime quasi cum eos numquam deserunt deleniti voluptatum nemo repudiandae! Fugiat neque nihil tenetur porro facere adipisci saepe voluptatibus repellat molestias, ea iusto aliquam debitis similique, incidunt eum magnam ducimus eaque rem optio a dolor amet. </p>
+          <ul>
+            <li>Accion</li>
+            <li>Drama</li>
+            <li>Suspenso</li>
+          </ul>
+          
+          <button onclick="verPelicula()" class="btnPortada" >VER</button>
+   
+        </div>
+
+    </div>
+ <script>
+
+    function verPelicula(){
+        alert("probando...")
+        window.open("https://www.youtube.com/watch?v=P2iQIW3LN8M","_blank")
+    }
+
+ </script>
+
+
+</body>
+</html>
